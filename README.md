@@ -2,6 +2,15 @@
 
 A complete Spring Boot sample application demonstrating the use of system-scope dependencies (commons-io and commons-lang3) with Maven, Docker, and OpenShift deployment.
 
+Problem: Enterprises often face situations where:
+
+Certain libraries are not available in public Maven repositories
+Internal/proprietary JARs need to be bundled
+isolated environments restrict internet access
+Legal/compliance requirements mandate specific library versions
+
+Solution: Shows how to integrate external JARs without Maven Central dependency
+
 ## 📋 Table of Contents
 - [Features](#features)
 - [Prerequisites](#prerequisites)
