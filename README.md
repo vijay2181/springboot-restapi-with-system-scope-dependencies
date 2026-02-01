@@ -382,5 +382,3 @@ podman run --rm -it -p 8080:8080 localhost/myapp:1.0 curl localhost:8080/api/uti
 This project is for demonstration purposes. The included libraries (commons-io, commons-lang3) are Apache 2.0 licensed.
 
 ---
-
-**Next Steps**: For production deployment, consider setting up proper health checks, resource limits, and monitoring in OpenShift.
